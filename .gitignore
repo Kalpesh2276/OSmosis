@@ -3,6 +3,7 @@
 /*.doc
 /*.pptx
 /*.zip
+datasets/
 
 # Built knowledge base, vector index, embedding cache, student progress
 data/
@@ -20,4 +21,6 @@ __pycache__/
 answer.html
 docs/OSmosis_Project_Report.docx
 deliverables/OSmosis_Viva_Prep.md
+deliverables/OSmosis_Backend_Guide.md
 ~$*
+deliverables/OSmosis_Pipeline_Memorize.md
