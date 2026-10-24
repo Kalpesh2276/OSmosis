@@ -1,0 +1,23 @@
+# Course material (copyrighted): textbook, teacher slides, lab handouts
+/*.pdf
+/*.doc
+/*.pptx
+/*.zip
+
+# Built knowledge base, vector index, embedding cache, student progress
+data/
+backup_kb_*/
+
+# Local environment and caches
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.env
+.streamlit/secrets.toml
+
+# Old or personal files
+answer.html
+docs/OSmosis_Project_Report.docx
+deliverables/OSmosis_Viva_Prep.md
+~$*

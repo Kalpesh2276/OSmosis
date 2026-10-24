@@ -1,0 +1,10 @@
+[server]
+# The file watcher walks every imported module; with transformers loaded that triggers
+# dozens of failed optional imports (torchvision) and makes the first answer very slow.
+fileWatcherType = "none"
+
+[theme]
+primaryColor = "#2f6fed"
+
+[browser]
+gatherUsageStats = false

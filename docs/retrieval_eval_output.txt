@@ -1,0 +1,91 @@
+2222 passages in the index, 78 questions, top 6 retrieved
+Current configuration: {'bm25_weight': 1.0, 'dense_weight': 1.0, 'rrf_k': 60, 'teacher_boost': 1.05, 'example_teacher_boost': 1.15, 'back_matter_weight': 0.5, 'max_per_section': None, 'kind_slot': None, 'depth': 50}
+
+== Current configuration ==
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+CPU scheduling and processes (30)           66.7%    93.3%    96.7%    0.797   30
+Newer topics (28)                           89.3%    96.4%    100.0%   0.932   28
+Linux commands and shell programming (20)   75.0%    95.0%    100.0%   0.846   20
+All questions                               76.9%    94.9%    98.7%    0.858   78
+
+By topic
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+CPU scheduling                              63.0%    92.6%    96.3%    0.775   27
+Deadlocks and Banker's algorithm            66.7%    100.0%   100.0%   0.833   3
+Linux and shell                             75.0%    95.0%    100.0%   0.846   20
+Memory and page replacement                 100.0%   100.0%   100.0%   1.000   9
+Processes and threads                       100.0%   100.0%   100.0%   1.000   7
+Storage and file systems                    100.0%   100.0%   100.0%   1.000   7
+Synchronization                             60.0%    80.0%    100.0%   0.717   5
+
+Textbook vs teacher material (37 questions labelled with both): textbook passage found in top 6 for 92%, teacher material for 86%; top passage is teacher material for 65% of all questions.
+  not found in the top 6: What happens to a process when its time slice ends?
+
+Per-question results saved to docs/retrieval_run.json
+
+== Controlled variants (all 78 questions) ==
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+A. BM25 only                                51.3%    83.3%    91.0%    0.674   78
+B. Embeddings only                          78.2%    89.7%    93.6%    0.842   78
+C. Baseline RRF (1:1, boost 1.15)           71.8%    93.6%    98.7%    0.830   78
+D. Embedding-heavy (BM25 0.5)               75.6%    94.9%    97.4%    0.843   78
+E. BM25-heavy (embeddings 0.5)              71.8%    94.9%    98.7%    0.825   78
+G. Baseline without teacher boost           71.8%    87.2%    98.7%    0.817   78
+H. No boost + both source kinds in top 2    71.8%    92.3%    98.7%    0.827   78
+I. BM25 0.5, no boost + both kinds in top 2 76.9%    92.3%    97.4%    0.848   78
+J. Baseline + back matter x0.5              74.4%    94.9%    98.7%    0.846   78
+K. No boost, boost 1.15 only for example questions71.8%    89.7%    98.7%    0.825   78
+F. Selected = config.FUSION                 76.9%    94.9%    98.7%    0.858   78
+
+Same variants, CPU-scheduling questions only (27)
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+A. BM25 only                                55.6%    81.5%    85.2%    0.682   27
+B. Embeddings only                          77.8%    77.8%    85.2%    0.791   27
+C. Baseline RRF (1:1, boost 1.15)           48.1%    88.9%    96.3%    0.691   27
+D. Embedding-heavy (BM25 0.5)               59.3%    88.9%    92.6%    0.731   27
+E. BM25-heavy (embeddings 0.5)              55.6%    92.6%    96.3%    0.716   27
+G. Baseline without teacher boost           63.0%    81.5%    96.3%    0.748   27
+H. No boost + both source kinds in top 2    63.0%    85.2%    96.3%    0.749   27
+I. BM25 0.5, no boost + both kinds in top 2 70.4%    85.2%    92.6%    0.773   27
+J. Baseline + back matter x0.5              51.9%    92.6%    96.3%    0.713   27
+K. No boost, boost 1.15 only for example questions63.0%    88.9%    96.3%    0.772   27
+F. Selected = config.FUSION                 63.0%    92.6%    96.3%    0.775   27
+
+== Grid search on 59 tuning questions (147 settings), best 8 ==
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=None, kind_slot=None, back_matter_weight=0.5, example_teacher_boost=1.15
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=None, kind_slot=None, back_matter_weight=0.5, example_teacher_boost=1.3
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=None, kind_slot=None, back_matter_weight=0.0, example_teacher_boost=1.15
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=None, kind_slot=None, back_matter_weight=0.0, example_teacher_boost=1.3
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=2, kind_slot=None, back_matter_weight=0.5, example_teacher_boost=1.15
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=2, kind_slot=None, back_matter_weight=0.5, example_teacher_boost=1.3
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=2, kind_slot=None, back_matter_weight=0.0, example_teacher_boost=1.15
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+  bm25_weight=1.0, teacher_boost=1.05, rrf_k=60, max_per_section=2, kind_slot=None, back_matter_weight=0.0, example_teacher_boost=1.3
+      Hit@1 71.2%  Hit@3 93.2%  Hit@6 98.3%  MRR 0.823
+
+Selected: {'bm25_weight': 1.0, 'teacher_boost': 1.05, 'rrf_k': 60, 'max_per_section': None, 'kind_slot': None, 'back_matter_weight': 0.5, 'example_teacher_boost': 1.15}
+
+== Held-out check (19 questions not used for tuning) ==
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+C. Baseline                                 84.2%    100.0%   100.0%   0.921   19
+F. Selected                                 94.7%    100.0%   100.0%   0.965   19
+
+== Selected vs baseline on all 78 questions ==
+                                            Hit@1    Hit@3    Hit@6    MRR     n
+C. Baseline                                 71.8%    93.6%    98.7%    0.830   78
+F. Selected                                 76.9%    94.9%    98.7%    0.858   78
+
+By topic, baseline -> selected (Hit@1, MRR)
+  CPU scheduling                       n=27  Hit@1 48% -> 63%   MRR 0.691 -> 0.775
+  Deadlocks and Banker's algorithm     n=3   Hit@1 100% -> 67%   MRR 1.000 -> 0.833
+  Linux and shell                      n=20  Hit@1 80% -> 75%   MRR 0.887 -> 0.846
+  Memory and page replacement          n=9   Hit@1 100% -> 100%   MRR 1.000 -> 1.000
+  Processes and threads                n=7   Hit@1 100% -> 100%   MRR 1.000 -> 1.000
+  Storage and file systems             n=7   Hit@1 86% -> 100%   MRR 0.929 -> 1.000
+  Synchronization                      n=5   Hit@1 40% -> 60%   MRR 0.567 -> 0.717

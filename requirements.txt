@@ -1,0 +1,7 @@
+# OS Tutor - knowledge base (RAG)  |  tested with Python 3.10-3.12
+pymupdf>=1.24          # PDF text + figure extraction
+rank_bm25>=0.2.2       # keyword search
+chromadb>=0.5          # vector database
+sentence-transformers>=3.0   # BGE embeddings (downloads BAAI/bge-base-en-v1.5 on first run)
+python-pptx>=1.0       # only needed if you add .pptx teacher notes
+streamlit>=1.40        # chat interface (app.py)

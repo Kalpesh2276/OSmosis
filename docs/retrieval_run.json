@@ -1,0 +1,3512 @@
+[
+ {
+  "question": "What is the convoy effect?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 3,
+  "results": [
+   {
+    "id": "silberschatz10_c0322",
+    "score": 0.025562,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0923",
+    "score": 0.022833,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1797",
+    "score": 0.017213,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c1982",
+    "score": 0.016935,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0444",
+    "score": 0.016129,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1085",
+    "score": 0.015873,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Why do short jobs get stuck waiting behind one long job?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 4,
+  "results": [
+   {
+    "id": "silberschatz10_c0447",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0448",
+    "score": 0.030478,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0626",
+    "score": 0.026743,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0444",
+    "score": 0.026334,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0637",
+    "score": 0.025604,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0438",
+    "score": 0.025275,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Difference between preemptive and non-preemptive scheduling",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1792",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1797",
+    "score": 0.03256,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1812",
+    "score": 0.031624,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1811",
+    "score": 0.030667,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0431",
+    "score": 0.029762,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1813",
+    "score": 0.02974,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What does the dispatcher do?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1785",
+    "score": 0.033871,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0434",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0704",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0703",
+    "score": 0.030777,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0532",
+    "score": 0.030769,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1790",
+    "score": 0.029861,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Which measures are used to compare scheduling algorithms?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "silberschatz10_c0548",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0437",
+    "score": 0.030282,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1208",
+    "score": 0.029199,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1666",
+    "score": 0.027652,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0552",
+    "score": 0.026378,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0440",
+    "score": 0.02629,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How is the length of the next CPU burst predicted?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0449",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0448",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1804",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1805",
+    "score": 0.031847,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0446",
+    "score": 0.029031,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0453",
+    "score": 0.02901,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How does shortest remaining time first work?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1806",
+    "score": 0.032213,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1798",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1804",
+    "score": 0.030659,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0451",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1805",
+    "score": 0.02974,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0448",
+    "score": 0.029514,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How should the time quantum be chosen in round robin?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1817",
+    "score": 0.033871,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0452",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0458",
+    "score": 0.031545,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0456",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1818",
+    "score": 0.031371,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1820",
+    "score": 0.030856,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What happens to a process when its time slice ends?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": null,
+  "results": [
+   {
+    "id": "silberschatz10_c0239",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m2_c1922",
+    "score": 0.029372,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0894",
+    "score": 0.027652,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0428",
+    "score": 0.024749,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0436",
+    "score": 0.024607,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1796",
+    "score": 0.016935,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is starvation and how does aging solve it?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "silberschatz10_c0692",
+    "score": 0.031319,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0463",
+    "score": 0.030777,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0843",
+    "score": 0.030769,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0698",
+    "score": 0.028958,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1209",
+    "score": 0.028219,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0842",
+    "score": 0.027052,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do processes move between queues in a multilevel feedback queue?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1842",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0468",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0469",
+    "score": 0.030835,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0471",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1841",
+    "score": 0.030098,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1853",
+    "score": 0.03,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is multilevel queue scheduling?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1838",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1842",
+    "score": 0.032654,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0471",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1844",
+    "score": 0.030943,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0468",
+    "score": 0.030366,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0466",
+    "score": 0.03031,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What information is stored in a process control block?",
+  "group": "CPU scheduling and processes",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1913",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0160",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1431",
+    "score": 0.031778,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0161",
+    "score": 0.030159,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0162",
+    "score": 0.030118,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0914",
+    "score": 0.02879,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What are the states a process can be in?",
+  "group": "CPU scheduling and processes",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1912",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0157",
+    "score": 0.031099,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0159",
+    "score": 0.029206,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0268",
+    "score": 0.029199,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0812",
+    "score": 0.027253,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1788",
+    "score": 0.02655,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What happens during a context switch?",
+  "group": "CPU scheduling and processes",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1917",
+    "score": 0.033619,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2086",
+    "score": 0.031847,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0176",
+    "score": 0.031514,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0173",
+    "score": 0.031281,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m2_c1922",
+    "score": 0.030849,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "notes_m5b_c2087",
+    "score": 0.030293,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is the CPU-I/O burst cycle?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1784",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1791",
+    "score": 0.032821,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m2_c1904",
+    "score": 0.032338,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1823",
+    "score": 0.032315,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0428",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1827",
+    "score": 0.03079,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is processor affinity?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "keerthika_m3_c1854",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0494",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0495",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0493",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0496",
+    "score": 0.030769,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1863",
+    "score": 0.030255,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is load balancing in multiprocessor scheduling?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1854",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0490",
+    "score": 0.031545,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0496",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0477",
+    "score": 0.030777,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0565",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0492",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is a memory stall on a multicore processor?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0483",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1855",
+    "score": 0.032576,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0870",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0486",
+    "score": 0.031514,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0485",
+    "score": 0.029851,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0484",
+    "score": 0.028783,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "Explain rate-monotonic scheduling",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0511",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0513",
+    "score": 0.031514,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0508",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0510",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0565",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0509",
+    "score": 0.029236,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How does earliest-deadline-first scheduling pick a process?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0514",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0515",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0516",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0507",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0566",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0510",
+    "score": 0.029631,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How does the Linux completely fair scheduler work?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1667",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0521",
+    "score": 0.030777,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1741",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0566",
+    "score": 0.029412,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1210",
+    "score": 0.028083,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1673",
+    "score": 0.027984,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How does Windows schedule threads?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0537",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0540",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0473",
+    "score": 0.030282,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0394",
+    "score": 0.02885,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0532",
+    "score": 0.028787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0531",
+    "score": 0.027032,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is deterministic modeling for evaluating a scheduling algorithm?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0552",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0549",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0551",
+    "score": 0.031746,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0550",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0553",
+    "score": 0.030536,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1796",
+    "score": 0.030055,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Difference between process contention scope and system contention scope",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "silberschatz10_c0476",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0473",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0475",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0474",
+    "score": 0.03125,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0664",
+    "score": 0.029211,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0669",
+    "score": 0.027778,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Round robin worked example with time quantum 2 and five processes",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "keerthika_m3_c1817",
+    "score": 0.038343,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1820",
+    "score": 0.035895,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1818",
+    "score": 0.035348,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1819",
+    "score": 0.033503,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1821",
+    "score": 0.032745,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1822",
+    "score": 0.031875,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "In the MLFQ example a 40 second process: in which queue does it finish?",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "keerthika_m3_c1842",
+    "score": 0.03959,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1844",
+    "score": 0.037744,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1853",
+    "score": 0.037498,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1798",
+    "score": 0.035545,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1838",
+    "score": 0.035267,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1796",
+    "score": 0.035118,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "SRTF worked example where a process has an I/O burst",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1829",
+    "score": 0.03959,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1827",
+    "score": 0.038053,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1805",
+    "score": 0.037189,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1828",
+    "score": 0.036417,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1807",
+    "score": 0.034152,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1806",
+    "score": 0.034024,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Priority scheduling example where a higher number means higher priority",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_c1813",
+    "score": 0.039271,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1811",
+    "score": 0.030424,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1839",
+    "score": 0.029521,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0527",
+    "score": 0.029437,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0461",
+    "score": 0.028405,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0657",
+    "score": 0.028006,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "FCFS example where the CPU is idle before the next process arrives",
+  "group": "CPU scheduling and processes",
+  "topic": "CPU scheduling",
+  "held_out": false,
+  "first_relevant": 3,
+  "results": [
+   {
+    "id": "keerthika_m3_c1799",
+    "score": 0.038091,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1826",
+    "score": 0.037744,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1800",
+    "score": 0.03689,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_c1802",
+    "score": 0.03475,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1803",
+    "score": 0.034021,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_c1811",
+    "score": 0.032895,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What happens when a process calls fork()?",
+  "group": "Newer topics",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1922",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0375",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0376",
+    "score": 0.031281,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m2_c1920",
+    "score": 0.031126,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m2_c1921",
+    "score": 0.028605,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1653",
+    "score": 0.027619,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What are the types of system calls?",
+  "group": "Newer topics",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1897",
+    "score": 0.033602,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m2_c1896",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0030",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0042",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0032",
+    "score": 0.029644,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0038",
+    "score": 0.029199,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "Difference between user threads and kernel threads",
+  "group": "Newer topics",
+  "topic": "Processes and threads",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1933",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0472",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0326",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0473",
+    "score": 0.03031,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0389",
+    "score": 0.028958,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m2_c1936",
+    "score": 0.028733,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is the many-to-many threading model?",
+  "group": "Newer topics",
+  "topic": "Processes and threads",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m2_c1937",
+    "score": 0.033602,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0331",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0329",
+    "score": 0.031545,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m2_c1935",
+    "score": 0.03135,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0351",
+    "score": 0.030092,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0327",
+    "score": 0.029877,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is the critical-section problem and what must a solution satisfy?",
+  "group": "Newer topics",
+  "topic": "Synchronization",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m4_c1989",
+    "score": 0.033333,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0603",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0668",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c1988",
+    "score": 0.031825,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0602",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0653",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How does Peterson's solution work?",
+  "group": "Newer topics",
+  "topic": "Synchronization",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0608",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0614",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c1992",
+    "score": 0.032315,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c1997",
+    "score": 0.032108,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c1996",
+    "score": 0.031884,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c1993",
+    "score": 0.031113,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How are semaphores used to solve the producer-consumer problem?",
+  "group": "Newer topics",
+  "topic": "Synchronization",
+  "held_out": false,
+  "first_relevant": 4,
+  "results": [
+   {
+    "id": "silberschatz10_c0206",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c2012",
+    "score": 0.031125,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0638",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c1984",
+    "score": 0.029825,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c1983",
+    "score": 0.029487,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0688",
+    "score": 0.029437,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is a race condition?",
+  "group": "Newer topics",
+  "topic": "Synchronization",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m4_c1987",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c1985",
+    "score": 0.032845,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c1986",
+    "score": 0.031884,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0667",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0600",
+    "score": 0.029631,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0604",
+    "score": 0.027397,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How can the dining philosophers problem lead to deadlock?",
+  "group": "Newer topics",
+  "topic": "Synchronization",
+  "held_out": false,
+  "first_relevant": 3,
+  "results": [
+   {
+    "id": "keerthika_m4_c2017",
+    "score": 0.033333,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m4_c2016",
+    "score": 0.033122,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0698",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0697",
+    "score": 0.031281,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m4_c2015",
+    "score": 0.031154,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0696",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What are the four necessary conditions for deadlock?",
+  "group": "Newer topics",
+  "topic": "Deadlocks and Banker's algorithm",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "silberschatz10_c0797",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1943",
+    "score": 0.032078,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0844",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1948",
+    "score": 0.031825,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0785",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0784",
+    "score": 0.030886,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "Explain the safety check in the Banker's algorithm",
+  "group": "Newer topics",
+  "topic": "Deadlocks and Banker's algorithm",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c0825",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1967",
+    "score": 0.030672,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1963",
+    "score": 0.029868,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1966",
+    "score": 0.029825,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1969",
+    "score": 0.028959,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0821",
+    "score": 0.028958,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How is deadlock detected with a wait-for graph?",
+  "group": "Newer topics",
+  "topic": "Deadlocks and Banker's algorithm",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m3_deadlock_c1971",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1945",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0827",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0829",
+    "score": 0.031054,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m3_deadlock_c1973",
+    "score": 0.030217,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0789",
+    "score": 0.03009,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Difference between internal and external fragmentation",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2057",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0899",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0898",
+    "score": 0.030579,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m5a_c2025",
+    "score": 0.030303,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2058",
+    "score": 0.029861,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2063",
+    "score": 0.029789,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Compare first fit, best fit and worst fit allocation",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2056",
+    "score": 0.033871,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0897",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m5a_c2026",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m5a_c2025",
+    "score": 0.031847,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2041",
+    "score": 0.031343,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1446",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How is a logical address translated to a physical address with paging?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "keerthika_m5a_c2023",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0906",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0913",
+    "score": 0.030366,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0911",
+    "score": 0.03009,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2047",
+    "score": 0.0292,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m5a_c2024",
+    "score": 0.029033,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is a TLB and how does it speed up paging?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2068",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "keerthika_m5a_c2033",
+    "score": 0.032213,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m5a_c2028",
+    "score": 0.031597,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m5a_c2030",
+    "score": 0.031371,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m5a_c2031",
+    "score": 0.031343,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m5a_c2029",
+    "score": 0.03099,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is segmentation?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2128",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2124",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2126",
+    "score": 0.032821,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2127",
+    "score": 0.032315,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0954",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0955",
+    "score": 0.029211,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What happens on a page fault?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2096",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1000",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2104",
+    "score": 0.031935,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "notes_m5b_c2097",
+    "score": 0.031126,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1116",
+    "score": 0.029412,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1070",
+    "score": 0.029387,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Explain Belady's anomaly with FIFO page replacement",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2111",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1036",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2110",
+    "score": 0.032108,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1037",
+    "score": 0.031025,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1045",
+    "score": 0.029418,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1033",
+    "score": 0.028595,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How does LRU page replacement work?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1042",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1041",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1043",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1045",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1047",
+    "score": 0.03055,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1044",
+    "score": 0.030303,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is thrashing?",
+  "group": "Newer topics",
+  "topic": "Memory and page replacement",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "notes_m5b_c2119",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1080",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "notes_m5b_c2118",
+    "score": 0.031818,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1083",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1082",
+    "score": 0.03009,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1084",
+    "score": 0.029958,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "Explain the SCAN disk scheduling algorithm",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1204",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1207",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1208",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1209",
+    "score": 0.029877,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1206",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1205",
+    "score": 0.029644,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How does C-SCAN differ from SCAN?",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1207",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1204",
+    "score": 0.031514,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1209",
+    "score": 0.029572,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1206",
+    "score": 0.027032,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1205",
+    "score": 0.025448,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "keerthika_m2_c1911",
+    "score": 0.025074,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Compare contiguous, linked and indexed file allocation",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1459",
+    "score": 0.031498,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1468",
+    "score": 0.030622,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1521",
+    "score": 0.030579,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1453",
+    "score": 0.029324,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1467",
+    "score": 0.02901,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1466",
+    "score": 0.028175,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is a tree-structured directory?",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1365",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1370",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1411",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1380",
+    "score": 0.031545,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1369",
+    "score": 0.031258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1366",
+    "score": 0.03009,
+    "source_kind": "textbook",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How is free disk space tracked with a bit vector?",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1471",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1472",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1473",
+    "score": 0.031746,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1470",
+    "score": 0.030777,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1476",
+    "score": 0.029469,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1724",
+    "score": 0.029139,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is journaling in the Linux ext3 file system?",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1727",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1719",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1729",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1720",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1722",
+    "score": 0.029083,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1724",
+    "score": 0.028992,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What attributes does a file have?",
+  "group": "Newer topics",
+  "topic": "Storage and file systems",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "silberschatz10_c1319",
+    "score": 0.031514,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1318",
+    "score": 0.030478,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0039",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1317",
+    "score": 0.029762,
+    "source_kind": "textbook",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1323",
+    "score": 0.029727,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1596",
+    "score": 0.028787,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do I change file permissions with chmod?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2142",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2143",
+    "score": 0.033871,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1393",
+    "score": 0.02971,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1386",
+    "score": 0.027864,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0003",
+    "score": 0.027673,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1550",
+    "score": 0.026901,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What does the grep command do?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2145",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0011",
+    "score": 0.032002,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.030055,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2173",
+    "score": 0.028654,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0010",
+    "score": 0.028446,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2130",
+    "score": 0.02818,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do you write a while loop in a shell script?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2172",
+    "score": 0.033089,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2189",
+    "score": 0.032845,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2170",
+    "score": 0.032078,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2214",
+    "score": 0.031195,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2212",
+    "score": 0.030889,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What are special variables like $# and $0 in shell scripts?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_slides_c2194",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2195",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2200",
+    "score": 0.031667,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2199",
+    "score": 0.031126,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2201",
+    "score": 0.030441,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How to read input from the user in a bash script?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_slides_c2174",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2212",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2198",
+    "score": 0.033122,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2200",
+    "score": 0.032108,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.032078,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2173",
+    "score": 0.031519,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "What is the difference between single and double quotes in bash?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2201",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2200",
+    "score": 0.032338,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2174",
+    "score": 0.031406,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.030751,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2194",
+    "score": 0.02963,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2199",
+    "score": 0.029445,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do pipes and redirection work?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2156",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2155",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0236",
+    "score": 0.029911,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0243",
+    "score": 0.029857,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0237",
+    "score": 0.029644,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0240",
+    "score": 0.02879,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What is a shell?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_slides_c2170",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2148",
+    "score": 0.033619,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2169",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2198",
+    "score": 0.033089,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.032821,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2196",
+    "score": 0.031113,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "Write a shell script to find the factorial of a number",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 4,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2210",
+    "score": 0.038091,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.037744,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2172",
+    "score": 0.037163,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2190",
+    "score": 0.036667,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2194",
+    "score": 0.036247,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2217",
+    "score": 0.035272,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do I write a function in bash?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2215",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2217",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2212",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2218",
+    "score": 0.032002,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2199",
+    "score": 0.031847,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How to list files in a directory?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 3,
+  "results": [
+   {
+    "id": "silberschatz10_c1356",
+    "score": 0.032018,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1439",
+    "score": 0.031054,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2134",
+    "score": 0.031029,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2217",
+    "score": 0.030737,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1412",
+    "score": 0.03031,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1364",
+    "score": 0.029437,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do I run a process in the background?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": true,
+  "first_relevant": 3,
+  "results": [
+   {
+    "id": "silberschatz10_c0175",
+    "score": 0.032787,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0037",
+    "score": 0.031754,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2157",
+    "score": 0.029441,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0264",
+    "score": 0.028718,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0196",
+    "score": 0.026084,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2158",
+    "score": 0.025359,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "case statement syntax in shell",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2187",
+    "score": 0.034149,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2183",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2185",
+    "score": 0.031884,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2169",
+    "score": 0.02963,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2198",
+    "score": 0.029034,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do I write an if-else statement in a shell script?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_slides_c2185",
+    "score": 0.033367,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2205",
+    "score": 0.032377,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2170",
+    "score": 0.032078,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.032002,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2172",
+    "score": 0.031667,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2186",
+    "score": 0.030659,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   }
+  ]
+ },
+ {
+  "question": "How do I delete a directory?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2141",
+    "score": 0.033073,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1369",
+    "score": 0.032522,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1439",
+    "score": 0.032266,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1356",
+    "score": 0.03101,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1322",
+    "score": 0.03009,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1355",
+    "score": 0.030077,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What does the man command do?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2131",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2161",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2130",
+    "score": 0.032308,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c0011",
+    "score": 0.030579,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c0010",
+    "score": 0.028324,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_linux_commands_c2158",
+    "score": 0.02822,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How are arrays used in shell scripts?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 2,
+  "results": [
+   {
+    "id": "lab_shell_slides_c2170",
+    "score": 0.033367,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2196",
+    "score": 0.033342,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2198",
+    "score": 0.033333,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2208",
+    "score": 0.032377,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2218",
+    "score": 0.032213,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2148",
+    "score": 0.03023,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do wildcards like * and ? match file names?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2153",
+    "score": 0.03388,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1319",
+    "score": 0.029083,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1317",
+    "score": 0.028382,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1594",
+    "score": 0.027505,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1356",
+    "score": 0.026767,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1368",
+    "score": 0.026289,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "How do I do arithmetic in a shell script?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": false,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_shell_exercises_c2202",
+    "score": 0.033871,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2178",
+    "score": 0.032213,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_exercises_c2207",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2203",
+    "score": 0.032063,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_shell_slides_c2170",
+    "score": 0.031213,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_slides_c2172",
+    "score": 0.031195,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   }
+  ]
+ },
+ {
+  "question": "What are environment variables such as PATH?",
+  "group": "Linux commands and shell programming",
+  "topic": "Linux and shell",
+  "held_out": true,
+  "first_relevant": 1,
+  "results": [
+   {
+    "id": "lab_linux_commands_c2152",
+    "score": 0.034426,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "lab_linux_commands_c2151",
+    "score": 0.033333,
+    "source_kind": "teacher_notes",
+    "relevant": true
+   },
+   {
+    "id": "silberschatz10_c1657",
+    "score": 0.032258,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "lab_shell_exercises_c2200",
+    "score": 0.031847,
+    "source_kind": "teacher_notes",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1655",
+    "score": 0.030536,
+    "source_kind": "textbook",
+    "relevant": false
+   },
+   {
+    "id": "silberschatz10_c1656",
+    "score": 0.030331,
+    "source_kind": "textbook",
+    "relevant": false
+   }
+  ]
+ }
+]
